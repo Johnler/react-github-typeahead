@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios';
 
-function TypeAhead(props) {
+function TypeAhead() {
   const [state, setState] = useState({
     input: '',
     isShow: true,
